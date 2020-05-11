@@ -115,7 +115,7 @@ function draw() {
 
 		else if (otherHasLeft) {
 			let txt = team == 'white'? 'Black' : 'White';
-			txt += ' has left!'
+			txt += ' has resigned!'
 			fill(255, 0, 0);
 
 			textSize(15);
