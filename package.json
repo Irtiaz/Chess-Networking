@@ -1,0 +1,21 @@
+{
+  "name": "chess-networking",
+  "version": "1.0.0",
+  "description": "I am adding networking features to my Chess game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Chess",
+    "Socket",
+    "Node"
+  ],
+  "author": "Md Irtiaz Kabir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
