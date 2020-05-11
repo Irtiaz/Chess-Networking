@@ -97,8 +97,8 @@ function draw() {
 
 		if (chess.wCheckState == 1 || chess.bCheckState == 1) {
 			let winner = chess.wCheckState == 1? 'Black' : 'White';
-			let col = winner == 'White'? color(255) : color(0);
-			fill(col);
+			//let col = winner == 'White'? color(255) : color(0);
+			fill(255, 0, 0);
 			
 			let txt = winner + ' Won!';
 			textSize(15);
@@ -116,6 +116,8 @@ function draw() {
 		else if (otherHasLeft) {
 			let txt = team == 'white'? 'Black' : 'White';
 			txt += ' has left!'
+			fill(255, 0, 0);
+
 			textSize(15);
 			let a = textWidth(txt);
 			let desiredRatio = width / (2 * a);
